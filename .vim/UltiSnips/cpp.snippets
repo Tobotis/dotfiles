@@ -1,0 +1,34 @@
+snippet snips "all snippets"
+cool
+endsnippet
+
+snippet tem "template"
+#ifdef ONPC
+	#define  _GLIBCXX_DEBUG
+#endif
+#include <bits/stdc++.h>
+
+using namespace std;
+int solve(){
+	$0
+	return 0;
+}
+
+int main(){
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
+	int t = 1;
+	// cin >> t;
+	for(int i = 1; i<= t; i++){
+		solve();
+	}
+
+}
+endsnippet
+
+snippet { "block"
+{
+	$0
+}
+endsnippet
